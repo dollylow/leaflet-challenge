@@ -100,12 +100,12 @@ legend.onAdd = function () {
     let div = L.DomUtil.create("div", "legend");
     let legendInfo =
         "<div><table><tr><th>Earthquake Depth</th></tr>" +
-        "<tr style='background-color: #44ce1b; font-weight: bold; text-align: center'><td>-10-10</td></tr>" +
-        "<tr style='background-color: #bbdb44; font-weight: bold; text-align: center'><td>10-30</td></tr>" +
-        "<tr style='background-color: #f7e379; font-weight: bold; text-align: center'><td>30-50</td></tr>" +
-        "<tr style='background-color: #f2a134; font-weight: bold; text-align: center'><td>50-70</td></tr>" +
-        "<tr style='background-color: #e51f1f; font-weight: bold; text-align: center'><td>70-90</td></tr>" +
-        "<tr style='background-color: #660000; font-weight: bold; text-align: center'><td>90+</td></tr></table></div>";
+        "<tr style='background-color: #FB8CAB; font-weight: bold; text-align: center'><td>-10-10</td></tr>" +
+        "<tr style='background-color: #E65C9C; font-weight: bold; text-align: center'><td>10-30</td></tr>" +
+        "<tr style='background-color: #CF268A; font-weight: bold; text-align: center'><td>30-50</td></tr>" +
+        "<tr style='background-color: #AF1281; font-weight: bold; text-align: center'><td>50-70</td></tr>" +
+        "<tr style='background-color: #6B0772; font-weight: bold; text-align: center'><td>70-90</td></tr>" +
+        "<tr style='background-color: #360167; font-weight: bold; text-align: center'><td>90+</td></tr></table></div>";
 
     div.innerHTML = legendInfo;
     return div;
